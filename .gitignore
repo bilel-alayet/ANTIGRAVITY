@@ -1,0 +1,17 @@
+# Ignore all dependencies (this covers the root, client, and server node_modules)
+node_modules/
+
+# Ignore all environment variable files for security
+.env
+
+# Ignore Vite build output in the client folder
+client/dist/
+
+# Ignore log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS generated files
+.DS_Store
+Thumbs.db
